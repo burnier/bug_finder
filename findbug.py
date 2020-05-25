@@ -88,7 +88,8 @@ with open(sys.argv[2], 'r') as f:                                              #
         if re.search(r'\S', line):                                              #read only lines with any char except whitespaces
             for j in range(bug_n_lines):
                 escaped_bug_part = escape_especial_char(bug[j][2])              #for each line: search all occurences of bug parts
-                for m in re.finditer(escaped_bug_part, line):
+                flex_bug = escaped_bug_part.replace(' ','.')                    #to account for any char within the "wings" of the bug (regex considers "." = any char)
+                for m in re.finditer(flex_bug, line):
                     bug_parts_list.append([i, m.start(), bug[j][2]])
             
 bug_parts_list = remove_duplicate_list_of_lists(bug_parts_list)
