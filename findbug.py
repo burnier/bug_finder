@@ -6,6 +6,10 @@ Test for applicants for the role of Software Developer
 Daniel Burnier de Castro
 21.05.2020
 
+25.05.2020 Update:
+The programm was changed in a way that the whitespaces within the bug "wings" are not taken into account anymore
+(This also extends for any empty spaces that may be added to a different bug pattern)
+
 STEPS:
 1) extract scructure from 'bug.txt'. In the file we  have following structure, 
     where Line is the text line and Pos is the column position in that line
