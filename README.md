@@ -1,4 +1,4 @@
-The problem – Find the bug
+The problem – Find the bug (edited on 08.10.2020)
 
 You program shall search a text file for bugs and print the number of their occurrence. The bug is
 drawn ASCII – style and can be found within bug.txt.
