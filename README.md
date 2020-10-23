@@ -6,3 +6,5 @@ drawn ASCII – style and can be found within bug.txt.
 For testing purposes, we provide a text file called landscape.txt. The contents of this file is a lot
 simpler than the file that we will be testing the completed program. Each occurrence of the character
 pattern as specified in bug.txt is counted, except for the whitespaces contained therein.
+
+(changed in a different git branch)
